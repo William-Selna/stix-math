@@ -66,7 +66,7 @@ pub fn big_op_symbol(name: &str) -> &'static str {
 /// # Examples
 ///
 /// ```
-/// use stix_math::{parse_equation, EqNode};
+/// use rust_latex_parser::{parse_equation, EqNode};
 ///
 /// // Standard LaTeX
 /// let tree = parse_equation("\\frac{a}{b}");
@@ -838,7 +838,7 @@ impl EqParser {
 /// # Examples
 ///
 /// ```
-/// use stix_math::latex_to_unicode;
+/// use rust_latex_parser::latex_to_unicode;
 ///
 /// assert_eq!(latex_to_unicode("alpha"), Some("α".to_string()));
 /// assert_eq!(latex_to_unicode("infty"), Some("∞".to_string()));

@@ -1,6 +1,6 @@
 //! Stress tests: adversarial, edge-case, and real-world inputs.
 
-use stix_math::{parse_equation, EqNode, latex_to_unicode};
+use rust_latex_parser::{parse_equation, EqNode, latex_to_unicode};
 
 // ─── Adversarial / malformed input ──────────────────────────────────
 

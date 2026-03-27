@@ -1,4 +1,4 @@
-//! # stix-math
+//! # rust-latex-parser
 //!
 //! A LaTeX equation parser that produces an abstract syntax tree.
 //!
@@ -12,7 +12,7 @@
 //! # Quick start
 //!
 //! ```
-//! use stix_math::{parse_equation, EqNode};
+//! use rust_latex_parser::{parse_equation, EqNode};
 //!
 //! let tree = parse_equation("\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}");
 //! assert!(matches!(tree, EqNode::Frac(_, _)));

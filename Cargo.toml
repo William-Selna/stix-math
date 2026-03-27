@@ -1,5 +1,5 @@
 [package]
-name = "stix-math"
+name = "rust-latex-parser"
 version = "0.1.0"
 edition = "2021"
 description = "A LaTeX equation parser that produces an abstract syntax tree. Supports fractions, roots, matrices, big operators, Greek letters, accents, and 130+ Unicode symbols — with convenient bareword syntax."

@@ -17,7 +17,7 @@
 /// # Walking the tree
 ///
 /// ```
-/// use stix_math::{parse_equation, EqNode};
+/// use rust_latex_parser::{parse_equation, EqNode};
 ///
 /// fn count_fractions(node: &EqNode) -> usize {
 ///     match node {

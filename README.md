@@ -7,13 +7,13 @@ LaTeX math parser for Rust. Takes a string, gives you an AST. No dependencies.
 
 ```toml
 [dependencies]
-stix-math = { git = "https://github.com/William-Selna/stix-math" }
+stix-math = { git = "https://github.com/William-Selna/Rust-LaTeX-Parser" }
 ```
 
 ## Usage
 
 ```rust
-use stix_math::{parse_equation, EqNode};
+use rust_latex_parser::{parse_equation, EqNode};
 
 let tree = parse_equation("\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}");
 
@@ -66,7 +66,7 @@ There's also `EqMetrics` (width/ascent/descent) if you need it for layout.
 `latex_to_unicode` works standalone if you just need that:
 
 ```rust
-use stix_math::latex_to_unicode;
+use rust_latex_parser::latex_to_unicode;
 
 latex_to_unicode("alpha");      // Some("α")
 latex_to_unicode("rightarrow"); // Some("→")
