@@ -7,7 +7,7 @@ LaTeX math parser for Rust. Takes a string, gives you an AST. No dependencies.
 
 ```toml
 [dependencies]
-stix-math = { git = "https://github.com/William-Selna/Rust-LaTeX-Parser" }
+rust-latex-parser = { git = "https://github.com/William-Selna/Rust-LaTeX-Parser" }
 ```
 
 ## Usage
